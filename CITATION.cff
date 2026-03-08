@@ -1,0 +1,61 @@
+cff-version: 1.2.0
+message: "If you use this code in your research or teaching, please cite it as below."
+type: software
+
+title: "carlin-soskice-open-economy"
+abstract: >
+  R implementation of the open-economy three-equation macroeconomic model
+  (IS-PC-MR framework with UIP and RX curve) presented in Chapter 11 of
+  Carlin & Soskice (2023). Includes period-by-period shock simulations
+  (inflation, demand, supply, and world interest rate shocks) and
+  ggplot2 visualizations of impulse response functions and model diagrams
+  (PC-MR, IS-RX, AD-ERU). Developed as teaching material for advanced
+  undergraduate economics courses.
+
+authors:
+  - family-names: "Dionisio Valverde Ambriz"
+    given-names: "Ismael"
+    affiliation: "Facultad de Economía, Universidad Nacional Autónoma de México"
+
+repository-code: "https://github.com/IsmaelDionisio/carlin-soskice-open-economy"
+license: MIT
+version: "1.0.0"
+date-released: "2026-03-07"
+
+keywords:
+  - macroeconomics
+  - open economy
+  - three-equation model
+  - monetary policy
+  - exchange rate
+  - uncovered interest parity
+  - overshooting
+  - Carlin and Soskice
+  - teaching material
+  - R
+
+references:
+  - type: book
+    authors:
+      - family-names: "Carlin"
+        given-names: "Wendy"
+      - family-names: "Soskice"
+        given-names: "David"
+    title: "Macroeconomics: Institutions, Instability, and the Financial System"
+    year: 2023
+    publisher:
+      name: "Oxford University Press"
+    edition: "2nd"
+
+  - type: article
+    authors:
+      - family-names: "Dornbusch"
+        given-names: "Rudiger"
+    title: "Expectations and Exchange Rate Dynamics"
+    year: 1976
+    journal: "Journal of Political Economy"
+    volume: 84
+    issue: 6
+    start: 1161
+    end: 1176
+    doi: "10.1086/260506"
