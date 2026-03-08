@@ -13,11 +13,11 @@ economy with a flexible exchange rate. It consists of five equations:
 
 | Equation | Expression | Description |
 |---|---|---|
-| Phillips Curve (PC) | π_t = π_{t-1} + α(y_t − y_e) | Inflation dynamics |
-| Monetary Rule (MR) | y_t − y_e = −αβ(π_t − π^T) | Central bank loss minimization |
-| Open-economy IS | y_t = A − ar_{t-1} + bq_{t-1} | Aggregate demand with net exports |
-| Real UIP | r_t − r* = q^E_{t+1} − q_t | Uncovered interest parity condition |
-| RX curve | y_t − y_e = −(a + b/(1−λ))(r_{t-1} − r*) | Policy implementation (replaces IS) |
+| Phillips Curve (PC) | $\pi_{t}=\pi_{t-1}+\alpha(y_{t}-y_{e})$| Inflation dynamics |
+| Monetary Rule (MR) | $y_{t}-y_{e}=-\alpha\beta(\pi_{t}-\pi^{T})$ | Central bank loss minimization |
+| Open-economy IS | $y_{t}=A-ar_{t-1}+bq_{t-1}$ | Aggregate demand with net exports |
+| Real UIP | $r_{t} − r^{*} = q^E_{t+1} − q_t$ | Uncovered interest parity condition |
+| RX curve | $y_{t} − y_{e} = −(\frac{a+b}{1-\lambda})(r_{t-1} − r^{*})$ | Policy implementation (replaces IS) |
 
 The RX curve is flatter than the IS curve because the exchange rate channel
 amplifies the effect of interest rate changes on aggregate demand.
