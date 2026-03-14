@@ -13,8 +13,8 @@ abstract: >
   undergraduate economics courses.
 
 authors:
-  - family-names: "Dionisio Valverde Ambriz"
-    given-names: "Ismael"
+  - family-names: "Valverde Ambriz"
+    given-names: "Ismael Dionisio"
     affiliation: "Facultad de Economía, Universidad Nacional Autónoma de México"
 
 repository-code: "https://github.com/ismaelvaleconomics/carlin-soskice-open-economy"
